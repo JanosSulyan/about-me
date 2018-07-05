@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+@media(min-width:600px){
+body {
+  height: 100vw;
+  margin: 0;
+  overflow: hidden;
+} 
+}
+
+body {
+  height: 100vw;
+  margin: 0;
+}
+header {
+  background: url('cover9.jpg') no-repeat 70% center/cover;
+  height: 100vw;
+  width: 100vw;
+  text-align:center;
+   }
+
+@media (min-width:600px) {
+  header {
+    background-image: url('cover9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vw;
+    width: 100vw;
+    }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li a {
+  color:white;
+  text-align: left;
+  padding: 0.876rem 1rem;
+  text-decoration: none;
+  font-size: 0.6rem;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+
+@media (min-width: 600px){
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li:last-child {
+    border-right: none;
+}
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.876rem 1rem;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+    
+li a:hover {
+    color:#0bedff;
+    border-bottom: 2px solid #0bedff;
+    border-top: 2px solid #0bedff;
+    transition: ease-out 0.3s 0.1s;
+    cursor: pointer;
+}
+
+.name {
+  color:transparent;
+}
+
+@media (min-width: 600px){
+.name {
+  color:white;
+  float:right;
+  font-size: 1.5rem;
+  padding:0.876rem 1rem;
+  margin-right:30px;
+  font-family: 'Open Sans', sans-serif;
+}
+}
+
+.me {
+  width:100px;
+  height: 100px;
+  padding: 1px;
+  filter:grayscale(50%);
+  transition: all 0.5s ease-in-out;
+}
+.me:hover {
+  filter: grayscale(20%);
+  transform: scale(1.1);
+  
+}
+
+p {
+  font-size: 0.8rem;
+  font-family: 'Libre Baskerville', serif;
+  color: black;
+  padding:5px;
+  color: transparent;
+  }
+h1 {
+  color: transparent;
+}
+
+@media (min-width: 600px) {
+.me{
+  width: 180px;
+  height: 180px;
+  padding: 1px;
+  filter: grayscale(40%);
+  transition: all 0.5s ease-in-out;
+  
+}
+
+.me:hover {
+  filter: grayscale(20%);
+  transform: scale(1.1);
+}
+
+.profilecard {
+  width:30vw;
+  height:30vw;
+  border: 3px solid #0bedff;
+  text-align: center;
+  margin: auto;
+  background-color: hsla(0, 0%, 100%, .5);
+  }
+.profile-img {
+  margin-top: -60px;
+}
+p {
+  font-size: 1.5rem;
+  font-family: 'Libre Baskerville', serif;
+  color: black;
+  padding:10px;
+}
+  h1 {
+    color:black;
+  }
+}
+
+.dance-img {
+  width: 100px;
+  height: 100px;
+  padding: 1px;
+  transition: all 0.5s ease-in-out;
+}
+
+.dance-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.photo-img {
+  width: 100px;
+  height: 100px;
+  padding: 1px;
+  transition: all 0.5s ease-in-out;
+}
+
+.photo-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.DIY-img {
+  width: 100px;
+  height: 100px;
+  padding: 1px;
+  transition: all 0.5s ease-in-out;
+}
+
+.DIY-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.wrapper {
+  text-align: center;
+  margin: 0px auto;
+}
+section {
+    background-color: #A0A0A0;
+    margin: 0;
+  width: 100vw;
+    
+  }
+
+.footer-wrapp {
+  text-align: center;
+  padding: 2rem;
+  background-color: #A0A0A0;
+  color: white;
+  width: 100vw;
+  
+}
+
+@media (min-width: 600px) {
+  .dance-img {
+  width: 180px;
+  height: 180px;
+  padding: 1px;
+  transition: all 0.5s ease-in-out;
+}
+
+.dance-img:hover {
+  transform: scale(1.1);
+}
+
+.photo-img {
+  width: 180px;
+  height: 180px;
+  padding: 1px;
+  transition: all 0.5s ease-in-out;
+}
+
+.photo-img:hover {
+  transform: scale(1.1);
+}
+
+.DIY-img {
+  width: 180px;
+  height: 180px;
+  padding: 1px;
+  transition: all 0.5s ease-in-out;
+}
+
+.DIY-img:hover {
+  transform: scale(1.1);
+}
+
+
+  .blurb {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+    border: 4px solid #0bedff;
+    background-color: whitesmoke;
+  }
+  .text {
+    font-size: 1.5rem;
+  }
+  section {
+    background-color: #A0A0A0;
+    margin: 0;
+    width: 100vw;
+    
+  }
+}
+
+.footer-wrapp {
+  text-align: center;
+  padding: 2rem;
+  background-color: #A0A0A0;
+  color: white;
+  width: 100vw;
+  
+}
